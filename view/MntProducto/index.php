@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Twitter -->
+    Twitter -->
     <meta name="twitter:site" content="@themepixels">
     <meta name="twitter:creator" content="@themepixels">
     <meta name="twitter:card" content="summary_large_image">
@@ -69,32 +69,32 @@
         </ul>
       </div>
 
-      <label class="sidebar-label pd-x-15 mg-t-25 mg-b-20 tx-info op-9">Information Summary</label>
+      <label class="sidebar-label pd-x-15 mg-t-25 mg-b-20 tx-info op-9">Estadisticas de productos</label>
 
-      <div class="info-list">
+       <div class="info-list">
         <div class="d-flex align-items-center justify-content-between pd-x-15">
           <div>
-            <p class="tx-10 tx-roboto tx-uppercase tx-spacing-1 tx-white op-3 mg-b-2 space-nowrap">Memory Usage</p>
+            <p class="tx-10 tx-roboto tx-uppercase tx-spacing-1 tx-white op-3 mg-b-2 space-nowrap">Productos ingresados</p>
             <h5 class="tx-lato tx-white tx-normal mg-b-0">32.3%</h5>
           </div>
-          <span class="peity-bar" data-peity='{ "fill": ["#336490"], "height": 35, "width": 60 }'>8,6,5,9,8,4,9,3,5,9</span>
-        </div><!-- d-flex -->
+          <span class="peity-bar" data-peity='{ "fill": ["#336490"], "height": 35, "width": 60 }'>8,6,5,9,8,4,9,3,5,9,10</span>
+        </div>  
 
-        <div class="d-flex align-items-center justify-content-between pd-x-15 mg-t-20">
+         <div class="d-flex align-items-center justify-content-between pd-x-15 mg-t-20">
           <div>
             <p class="tx-10 tx-roboto tx-uppercase tx-spacing-1 tx-white op-3 mg-b-2 space-nowrap">CPU Usage</p>
             <h5 class="tx-lato tx-white tx-normal mg-b-0">140.05</h5>
           </div>
           <span class="peity-bar" data-peity='{ "fill": ["#1C7973"], "height": 35, "width": 60 }'>4,3,5,7,12,10,4,5,11,7</span>
-        </div><!-- d-flex -->
+        </div>  
 
-        <div class="d-flex align-items-center justify-content-between pd-x-15 mg-t-20">
+     <div class="d-flex align-items-center justify-content-between pd-x-15 mg-t-20">
           <div>
             <p class="tx-10 tx-roboto tx-uppercase tx-spacing-1 tx-white op-3 mg-b-2 space-nowrap">Disk Usage</p>
             <h5 class="tx-lato tx-white tx-normal mg-b-0">82.02%</h5>
           </div>
           <span class="peity-bar" data-peity='{ "fill": ["#8E4246"], "height": 35, "width": 60 }'>1,2,1,3,2,10,4,12,7</span>
-        </div><!-- d-flex -->
+        </div> 
 
         <div class="d-flex align-items-center justify-content-between pd-x-15 mg-t-20">
           <div>
@@ -102,8 +102,8 @@
             <h5 class="tx-lato tx-white tx-normal mg-b-0">62,201</h5>
           </div>
           <span class="peity-bar" data-peity='{ "fill": ["#9C7846"], "height": 35, "width": 60 }'>3,12,7,9,2,3,4,5,2</span>
-        </div><!-- d-flex -->
-      </div><!-- info-lst -->
+        </div> 
+      </div>
 
       <br>
     </div><!-- br-sideleft -->
@@ -688,23 +688,25 @@
         <h4 class="tx-gray-800 mg-b-5">Productos</h4>
         <p class="mg-b-0">Desde esta ventana funcional podra dar mantenimiento a productos </p>
       </div>
-      <!-- <!- AQUI SE INGRESA LA TABLA O DATA TABEL   -->
+      <!-- <!- AQUI SE INGRESA LA TABLA O DATATABEL   -->
      <div class="br-pagebody">
         <div class="br-section-wrapper">
             <h6 class="tx-gray-800 tx-uppercase tx-bold tx-14 mg-b-10">Mantenimiento de Producto</h6>
-            <button id="btnnuevo" class="btn btn-outline-primary btn-block mg-b-10">Nuevo Registro</button>
+            <button id="btnnuevo" class="btn btn-outline-primary btn-block mg-b-12">Nuevo Registro</button>
 
             <div class="table-wrapper">
               <table id="producto_data" class="table display responsive nowrap">
                 <thead>
                   <tr>
-                    <th class="wd-15p">Nombre</th>
+                    <th class="wd-25p">Nombre</th>
+                    <th class="wd-15p">Fecha de Creacion</th>
+                    <th class="wd-15p">id</th>
                     <th class="wd-15p">Editar</th>
-                    <th class="wd-20p">Eliminar</th>
+                    <th class="wd-15p">Eliminar</th>
                   </tr>
                 </thead>
                 <tbody>
-
+               
                 </tbody>
               </table>
             </div>
@@ -738,5 +740,6 @@
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@10"></script> -->
 
     <script type="text/javascript" src="mntproducto.js"></script>
+ 
   </body>
 </html>

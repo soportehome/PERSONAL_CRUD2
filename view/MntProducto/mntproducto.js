@@ -127,4 +127,16 @@ $(document).on("click","#btnnuevo", function(){
     $('#modalmantenimiento').modal('show');
 });
 
+
+function editar (prod_id){
+    console.log(prod_id);
+
+
+}
+
+function eliminar (prod_id){
+console.log(prod_id);
+}
+
+
 init();
